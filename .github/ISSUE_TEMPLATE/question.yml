@@ -1,0 +1,15 @@
+name: "🗣 質問・ディスカッション"
+description: "本プロダクトの使い方に関する問い合わせ"
+labels:
+  - "Type: Question"
+body:
+  - type: textarea
+    attributes:
+      label: 質問
+      description: 質問内容を入力してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: その他
+      description: その他、質問に関連する情報を入力してください。
