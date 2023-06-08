@@ -1,0 +1,15 @@
+name: "📚 ドキュメンテーション"
+description: "ドキュメントの修正・追加要望"
+labels:
+  - "Type: Documentation"
+body:
+  - type: textarea
+    attributes:
+      label: 要望
+      description: 追加・修正したいドキュメントについて説明してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: その他
+      description: その他、要望に関連する情報を入力してください。
