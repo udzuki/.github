@@ -1,0 +1,23 @@
+name: "🚀 機能追加のリクエスト"
+description: "機能追加・改善の要望"
+labels:
+  - "Type: Feature"
+body:
+  - type: textarea
+    attributes:
+      label: 要望
+      description: 追加・改善したい機能について説明してください。
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: 実現方法
+      description: 実現方法のアイディアがあれば入力してください。
+  - type: textarea
+    attributes:
+      label: 代替案
+      description: 上記以外の対応策があれば入力してください。
+  - type: textarea
+    attributes:
+      label: その他
+      description: その他、要望に関連する情報を入力してください。
